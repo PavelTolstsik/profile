@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+header{
+	width: 100vw;
+	height: 70px;
+}
+.logo{
+	margin-top: 48px;
+	margin-left: 80px;
+}
+.container{ 
+	max-width: 1366px;
+	width: 100%;
+	margin: 0 auto;
+}
+.name{
+	text-align: center;
+	margin-top: 160px;
+
+	font-family: Druk Wide;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 47px;
+ 	color: #000000;
+}
+.surname{
+	text-align: center;
+
+	font-family: Druk Wide;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+}
+.links{
+	display: inline-block;
+	justify-content: center;
+	margin-top: 32px;
+	margin-left: 419px;
+}
+.link{
+	margin-right: 36px; 
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+    color: #00A3FE;
+    text-decoration: none;
+}
+.link:hover{
+	color: #8AD5FF;
+}
+.text{
+	margin-top: 36px;
+
+	font-family: Inter;
+ 	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 135%;
+
+	text-align: center;
+	color: #000000;
+}
+.colortext{
+	color: #00A3FE;
+}
+.colortext:hover{
+	color: #8AD5FF;
+}
+
+
+
+
+@media only screen and (max-width: 420px){
+	.logo{
+		margin-left: 40px;
+	}
+	.container{
+		max-width: 420px;
+		width: 100%;
+	}
+	.name{
+		margin-top: 140px;
+		font-size: 28px;
+	}
+	.links{
+		margin-top: 24px;
+		margin-left: 40px;
+	}
+	.link{
+		margin-right: 12px;
+		font-size: 14px;
+	}
+	.text{
+		margin-top: 24px;
+		font-size: 13px;
+	}
+}
+
+
